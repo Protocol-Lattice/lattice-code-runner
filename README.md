@@ -13,4 +13,7 @@ cd lattice-code
 # Build mcp
 chmod +x install.sh
 ./install.sh
+
+#or
+go install github.com/Protocol-Lattice/lattice-code-runner@latest
 ```

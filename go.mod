@@ -1,4 +1,4 @@
-module github.com/Protocol-Lattice/code-runner-mcp
+module github.com/Protocol-Lattice/lattice-code-runner
 
 go 1.23.0
 
