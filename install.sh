@@ -23,7 +23,7 @@ sleep 0.5
 # Build lattice-code-runner
 # ──────────────────────────────────────────────
 echo -e "${YELLOW}→ Building lattice-code-runner from .d/cmd...${RESET}"
-go build -o lattice-code-runner ./cmd/main.go || { echo -e "${RED}❌ Failed to build lattice-code-runner.${RESET}"; exit 1; }
+go build -o lattice-code-runner ./main.go || { echo -e "${RED}❌ Failed to build lattice-code-runner.${RESET}"; exit 1; }
 
 echo -e "${BLUE}→ Moving binary to /usr/local/bin...${RESET}"
 sudo mv lattice-code-runner /usr/local/bin/ || { echo -e "${RED}❌ Failed to move lattice-code-runner.${RESET}"; exit 1; }
